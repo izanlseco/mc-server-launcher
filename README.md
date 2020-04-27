@@ -1,5 +1,5 @@
 # What is this?
-The idea was to make a simple launcher with some parameters to launch a minecraft server with forge installed.
+The idea was to make a simple launcher with some parameters to launch a minecraft server with forge installed **on Windows**.
 
 The project works with forge version **forge-1.15.2-31.1.46.jar**
 
