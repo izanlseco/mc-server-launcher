@@ -15,6 +15,10 @@ assert maximumMemory instanceof String
 assert maximumMemory == '-Xmx8192M'
 assert forgeVersion instanceof String
 assert forgeVersion == 'forge-1.15.2-31.1.46.jar'
+assert forgeVersion =~ 'forge'
+def words = forgeVersion.split(/-/)
+assert words[0] == 'forge'
+assert words.size() == 3
 assert launchForge instanceof GString
 assert launchForge == "cmd /c java $initialMemory $maximumMemory -jar $forgeVersion"
 
